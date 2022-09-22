@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller</title>
+    <link rel="icon" type="img/x-icon" href="./assets/imgs/logo/logo-shortver.png">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile_booking_ticket.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts_icon/themify-icons/themify-icons.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+</head> 
+<body>
+    <div id="main">
+    <!--BEGIN: HOME -->
+        <!-- NAV -->
+ 
+        <div class="mobile-back-home">
+            <a href="index.html" class="mobile-back-home-link">
+                <i class="ti-angle-left"></i>
+                    Trở về
+            </a>
+        </div>
+        <div class="modal-mobile">
+            <div class="modal-mobile-container">
+
+    
+                <header class="modal-mobile-header">
+                    <i class="ticket-icon ti-ticket"></i>
+                    <p>Đặt Vé</p>
+                </header>
+    
+                <div class="modal-mobile-body">
+                    <label for="modal-mobile-name" class="modal-mobile-label">
+                        <i class="ti-user"></i>
+                        Họ và tên
+                    </label>
+                    <input id="modal-mobile-name" type="text" class="modal-mobile-input" required placeholder="Nhập tên">
+    
+                    <label for="modal-mobile-address" class="modal-mobile-label">
+                        <i class="ti-direction"></i>
+                        Địa chỉ
+                    </label>
+                    <input id="modal-mobile-address" type="text" class="modal-mobile-input" required placeholder="Nhập địa chỉ">
+    
+                    <label for="modal-mobile-contact" class="modal-mobile-label">
+                        <i class="ti-mobile"></i>
+                        Liên lạc
+                    </label>
+                    <input id="modal-mobile-contact" type="tel" class="modal-mobile-input" required placeholder="Nhập số di động">
+    
+                    <label for="modal-mobile-email" class="modal-mobile-label">
+                        <i class="ti-email"></i>
+                        Email
+                    </label>
+                    <input id="modal-mobile-email" type="email" class="modal-mobile-input" required placeholder="Nhập email?">
+    
+                    <label for="modal-mobile-quantity" class="modal-mobile-label">
+                        <i class="ti-ticket"></i>
+                        Số lượng
+                    </label>
+                    <input id="modal-mobile-quantity" type="number" min="1"  class="modal-mobile-input" required placeholder="Nhập số lượng vé?">
+    
+                    <button type="submit" id="modal-mobile-book-btn">
+                        Đặt
+                    </button>
+                </div>
+    
+                <footer class="modal-mobile-footer"><a href="#">Trợ giúp?</a></footer>
+    </div>
+</body>
